@@ -1,6 +1,6 @@
 
 /**
- *
+ * A class for card
  * @author Md.Riad Arifin (A00395462)
  */
 public class card {
