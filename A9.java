@@ -1,7 +1,7 @@
 
 
 /**
- *
+ * A program to play blackjack
  * @author Md.Riad Arifin (A00395462)
  */
 import java.io.*;
