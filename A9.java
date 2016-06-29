@@ -12,16 +12,22 @@ public class A9 {
     /**
      * @param args the command line arguments
      */
+    
+    //creating some private variables
     private static int k = 0;
     private static int dealerScore = 0;
     private static int playerScore = 0;
+    
     static card[] pHand = new card[52];
     static card[] dHand = new card[52];
     static deck d = new deck();
 
     public static void main(String[] args) throws Exception {
 
+        //assigning scanner
         Scanner kbd = new Scanner(System.in);
+        
+        //assigning some variables
         int round = 0;
 
         char isCard = 'y';
@@ -31,6 +37,7 @@ public class A9 {
 
         d.shuffle();
 
+        //a while loop to repeat the entire round
         while (isRound == 'y') {
             i = 0;
             k = 0;
