@@ -1,6 +1,6 @@
 
 /**
- *
+ * A class for deck
  * @author Md.Riad Arifin (A00395462)
  */
 import java.util.*;
